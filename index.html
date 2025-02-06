@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PrimeBusinessSolutions - Home</title>
+  <title>PrimeBusinessSolutions</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
   <!-- Header -->
@@ -17,58 +16,67 @@
       </div>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="book-a-call.html">Book a Call</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section id="home" class="hero">
     <div class="container">
       <h1>Your Business, Our Solutions</h1>
       <p>We provide top-notch virtual assistant services to help your business grow.</p>
-      <a href="book-a-call.html" class="cta-button">Book a Discovery Call</a>
+      <a href="#discovery-call" class="cta-button">Book a Discovery Call</a>
     </div>
   </section>
 
-  <!-- Services Preview Section -->
-  <section class="services-preview">
+  <!-- Services Section -->
+  <section id="services" class="services">
     <div class="container">
       <h2>Our Services</h2>
       <div class="service-grid">
         <div class="service-item">
-          <i class="fas fa-headset fa-3x"></i>
           <h3>Virtual Assistants</h3>
-          <p>Skilled professionals to handle your administrative tasks and customer support.</p>
+          <p>Expert virtual assistants to handle your administrative tasks.</p>
         </div>
         <div class="service-item">
-          <i class="fas fa-briefcase fa-3x"></i>
-          <h3>Executive Assistants</h3>
-          <p>High-level support for project management and strategic planning.</p>
+          <h3>Customer Support</h3>
+          <p>24/7 customer support to keep your clients happy.</p>
         </div>
         <div class="service-item">
-          <i class="fas fa-truck fa-3x"></i>
-          <h3>Dispatcher Services</h3>
-          <p>Optimize logistics with real-time scheduling and route management.</p>
+          <h3>Marketing Support</h3>
+          <p>Boost your brand with our marketing experts.</p>
         </div>
       </div>
-      <a href="services.html" class="cta-button">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>At PrimeBusinessSolutions, we are dedicated to providing exceptional virtual assistant services tailored to your business needs. Our team of professionals is here to help you focus on what matters most – growing your business.</p>
+    </div>
+  </section>
+
+  <!-- Discovery Call Section -->
+  <section id="discovery-call" class="discovery-call">
+    <div class="container">
+      <h2>Book a Discovery Call</h2>
+      <p>Ready to take your business to the next level? Schedule a free discovery call with us today!</p>
+      <!-- Replace YOUR_CALENDLY_LINK with your actual Calendly link -->
+      <a href="https://calendly.com/YOUR_CALENDLY_LINK" class="cta-button" target="_blank">Schedule Now</a>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer>
+  <footer id="contact">
     <div class="container">
       <p>&copy; 2023 PrimeBusinessSolutions. All rights reserved.</p>
-      <div class="social-links">
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-      </div>
     </div>
   </footer>
 
